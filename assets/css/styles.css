@@ -68,3 +68,8 @@
 .faq-item summary{cursor:pointer;padding:1rem 1.25rem;font-weight:600}
 .faq-item[open] summary{border-bottom:1px solid var(--line)}
 .faq-answer{padding:1rem 1.25rem}
+
+/* FAQ panel separation and event enquiry spacing */
+.faq-panel{background:var(--pale-green);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(1.25rem,3vw,2.5rem);margin-top:1.5rem}
+.faq-panel .faq-list{margin-top:0}
+.event-enquiry-action{margin-top:1.5rem}
