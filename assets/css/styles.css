@@ -73,3 +73,6 @@
 .faq-panel{background:var(--pale-green);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(1.25rem,3vw,2.5rem);margin-top:1.5rem}
 .faq-panel .faq-list{margin-top:0}
 .event-enquiry-action{margin-top:1.5rem}
+
+/* Keep FAQ heading and questions together inside the panel */
+.faq-panel>h2{margin-top:0;margin-bottom:1.5rem}
