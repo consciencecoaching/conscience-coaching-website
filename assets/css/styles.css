@@ -75,4 +75,7 @@
 .event-enquiry-action{margin-top:3rem}
 
 /* Keep FAQ heading and questions together inside the panel */
-.faq-panel>h2{margin-top:0;margin-bottom:1.5rem}
+.faq-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(12rem,38%);align-items:center;gap:clamp(1rem,3vw,2rem);margin-bottom:1.5rem}
+.faq-intro h2{margin:0}
+.faq-intro-image{display:block;width:100%;height:clamp(11rem,22vw,16rem);object-fit:cover;border-radius:var(--radius)}
+@media(max-width:40rem){.faq-intro{grid-template-columns:1fr}.faq-intro-image{height:12rem}}
